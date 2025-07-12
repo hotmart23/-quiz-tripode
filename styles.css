@@ -1,0 +1,15 @@
+body { background: #0e0e0e; color: #fff; font-family: sans-serif; margin: 0; padding: 20px; }
+.container { max-width: 600px; margin: auto; background: #1c1c1c; padding: 30px; border-radius: 12px; }
+h1 { font-size: 28px; margin-bottom: 10px; }
+.red { color: #e53935; }
+.subtitle { color: #ccc; margin-bottom: 20px; }
+.progress { height: 6px; background: #333; border-radius: 3px; overflow: hidden; margin-bottom: 20px; }
+.progress-bar { height: 100%; width: 0; background: #e53935; transition: width 0.3s ease; }
+.question { display: none; }
+.question.active { display: block; }
+.question p { font-size: 18px; font-weight: bold; }
+label { display: block; margin: 12px 0; padding: 10px; background: #2b2b2b; border-radius: 8px; cursor: pointer; }
+input { margin-right: 10px; }
+.nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
+button { padding: 10px 20px; background: #e53935; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+button:disabled { background: #444; cursor: not-allowed; }
