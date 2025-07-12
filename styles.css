@@ -1,6 +1,6 @@
 body { background: #0e0e0e; color: #fff; font-family: sans-serif; margin: 0; padding: 20px; }
 .container { max-width: 600px; margin: auto; background: #1c1c1c; padding: 30px; border-radius: 12px; }
-h1 { font-size: 28px; margin-bottom: 10px; }
+h1, h2 { font-size: 24px; margin-bottom: 10px; }
 .red { color: #e53935; }
 .subtitle { color: #ccc; margin-bottom: 20px; }
 .progress { height: 6px; background: #333; border-radius: 3px; overflow: hidden; margin-bottom: 20px; }
@@ -13,3 +13,7 @@ input { margin-right: 10px; }
 .nav-buttons { display: flex; justify-content: space-between; margin-top: 20px; }
 button { padding: 10px 20px; background: #e53935; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
 button:disabled { background: #444; cursor: not-allowed; }
+.result.hidden { display: none; }
+.result .bar-graph { display: flex; justify-content: space-between; margin: 20px 0; }
+.result .bar { flex: 1; height: 10px; background: #e53935; margin: 0 10px; border-radius: 5px; }
+.cta-button { display: block; background: #e53935; color: #fff; padding: 12px; text-align: center; border-radius: 8px; text-decoration: none; margin-top: 20px; }
